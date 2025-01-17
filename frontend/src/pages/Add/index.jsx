@@ -48,7 +48,7 @@ function Add() {
 
 
   return (
-    <>
+    <div style={{height:"100vh"}}>
       <form onSubmit={formik.handleSubmit} className='container add-form'>
       <div className='input-wrapper'>
           <label htmlFor="desc">Description</label>
@@ -126,7 +126,7 @@ function Add() {
           }
         </tbody>
       </table>
-    </>
+    </div>
   )
 }
 
